@@ -8,12 +8,22 @@ body {
   background-color: @goldenrod;
 }
 
+a {
+  color: @df-off-black;
+
+  &:hover {
+    text-decoration: underline;
+    color: initial;
+  }
+}
+
 .header {
 
   .title {
     color: @brown;
     text-transform: uppercase;
     text-align: center;
+    font-size: 3em;
   }
 
   .jump {
@@ -31,4 +41,20 @@ body {
 section {
   width: 100%;
   margin: 0 auto;
+  float: left;
+
+  &.light-text {
+    color: @df-off-white;
+  }
+
+  &.dark-text {
+    color: @df-off-black;
+  }
+
+  .section-hed {
+    color: inherit;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.6em;
+  }
 }
