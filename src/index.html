@@ -4,6 +4,8 @@
     <title><%= json.project.title %></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- MailChimp CSS -->
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <%= t.include("partials/_adHead.html") %>
   </head>
@@ -29,10 +31,7 @@
 
     </header>
 
-    <section id="intro" class="intro light-text">
-      <h2 class="section-hed">Welcome to the project</h2>
-      <p> Chatter chatter chatter.
-    </section>
+    <%= t.include("_intro.html") %>
 
     <section id="timeline" class="timeline dark-text">
       <h2 class="section-hed">Brewing timeline</h2>
