@@ -55,3 +55,20 @@ Shims for Flexbox - should work on Safari and IE10+
   -ms-flex-wrap: @wrap;
   flex-wrap: @wrap;
 }
+
+.hbox {
+  .display-flex;
+
+  & > * {
+    .flex(1);
+  }
+}
+
+.vbox {
+  .display-flex;
+  .flex-direction(column);
+  
+  & > * {
+    .flex(1);
+  }
+}

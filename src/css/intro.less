@@ -1,0 +1,36 @@
+@import "values";
+@import "flexbox";
+
+.intro {
+  background: url("/assets/background/intro.jpg");
+  background-size: cover;
+  background-position: left top;
+  padding: 2em;
+
+  .brewsletter {
+    .display-flex;
+    .flex-direction(column);
+    .justify-content(center);
+  }
+
+  .section-hed {
+    margin-top: 0;
+  }
+
+  .intro-chatter {
+    font-size: 1.4em;
+  }
+
+  h3 {
+    margin: 10px 0;
+    color: @df-off-black;
+    text-transform: uppercase;
+  }
+
+  .gray-box {
+    background-color: fade(@df-off-white, 45%);
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+}
+
