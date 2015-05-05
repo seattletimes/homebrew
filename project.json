@@ -5,8 +5,8 @@
       "path": "pale-ale"
     },
     "live": {
-      "bucket": "",
-      "path": ""
+      "bucket": "projects.seattletimes.com",
+      "path": "2015/brew-with-us"
     }
   },
   "title": "",
