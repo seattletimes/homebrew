@@ -6,6 +6,10 @@
   background-size: 100% auto;
   background-position: 50% 50%;
 
+  @media (max-width: 1200px) {
+    background-size: auto 400px;
+  }
+
   .inner {
     position: relative;
 
@@ -21,6 +25,22 @@
       margin: 0 20px;
     }
 
+    .logo {
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      width: 200px;
+    }
+
+    .tagline {
+      position: absolute;
+      top: 4px;
+      right: 4px;
+      text-align: right;
+      color: white;
+      text-transform: uppercase;
+    }
+
   }
 
   .title {
@@ -32,6 +52,11 @@
     position: relative;
     letter-spacing: 5px;
     .outline-text(.1em);
+
+    @media (max-width: 1200px) {
+      padding-top: 45px;
+      text-shadow: none;
+    }
   }
 
   .jump {
@@ -40,6 +65,7 @@
     font-family: @hed;
     font-weight: 900;
     position: relative;
+    padding: 0;
 
     li {
       display: inline-block;
