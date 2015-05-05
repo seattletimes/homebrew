@@ -52,3 +52,10 @@
 @st-dark-blue: rgb(163, 193, 221);
 @st-light-purple: rgb(199, 187, 220);
 @st-dark-purple: rgb(123, 90, 166);
+
+.outline-text(@size: .05em, @color: @gold) {
+  text-shadow:
+    -@size 0 0 @color, -@size -@size 0 @color, -@size @size 0 @color,
+    0 -@size 0 @color, 0 @size 0 @color,
+    @size 0 0 @color, @size -@size 0 @color, @size @size 0 @color;
+}
