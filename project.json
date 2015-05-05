@@ -2,7 +2,7 @@
   "s3": {
     "stage": {
       "bucket": "apps-stage.seattletimesdata.com",
-      "path": "pale-ale"
+      "path": "pastel-suds"
     },
     "live": {
       "bucket": "projects.seattletimes.com",
