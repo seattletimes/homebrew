@@ -10,18 +10,19 @@
 - For coasters: [http://seati.ms/brewsletters](http://seati.ms/brewsletters) (uses ?coaster at end of projects URL)
 
 **PEOPLE:**
-Writers: Nikolaj, Audrey
-Editor: Laura Gordon
-Developer: Thomas
-Graphics: Kelly, Mark N., Garland
-Video: Corinne
-Producer assist when Katrina is out: Paige
+
+- Writers: Nikolaj, Audrey
+- Editor: Laura Gordon
+- Developer: Thomas
+- Graphics: Kelly, Mark N., Garland
+- Video: Corinne
+- Producer assist when Katrina is out: Paige
 
 **POINT PERSON(S):**
-MARKETING: Whitney, Ryan, Kati Erwert
-MAILCHIMP: Whitney (design), Andrew McRae (functionality)
-PROJECT PAGE: Thomas
-TEXT: Laura Gordon
+- Marketing: Whitney, Ryan, Kati Erwert
+- MailChimp: Whitney (design), Andrew McRae (functionality)
+- Project page: Thomas
+- Text: Laura Gordon
 
 **PLANNED NEWSLETTER EMAILS:**
 
