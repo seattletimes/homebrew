@@ -1,19 +1,33 @@
 # Notes for homebrew project
 
-**LAUNCH:** May 11 at earliest, May 13 likely
+**LAUNCH:** hoping for May 11, but May 13 is more likely
 
-**BREW DAY:** May 30
+**BREW DAY:** May 30 (Saturday)
 
 **URLs:**
 
 - Project: [http://seati.ms/brew-with-us](http://seati.ms/brew-with-us)
-- For coasters: [http://seati.ms/brewsletters](http://seati.ms/brewsletters) (uses ?coasters at end of projects URL)
+- For coasters: [http://seati.ms/brewsletters](http://seati.ms/brewsletters) (uses ?coaster at end of projects URL)
 
-**PLANNED EMAILS:**
+**PEOPLE:**
+Writers: Nikolaj, Audrey
+Editor: Laura Gordon
+Developer: Thomas
+Graphics: Kelly, Mark N., Garland
+Video: Corinne
+Producer assist when Katrina is out: Paige
 
-- Welcome email includes information about equipment, supplies and calendar
-- What is a pale ale?
-- Reminder email: x days until brew day
+**POINT PERSON(S):**
+MARKETING: Whitney, Ryan, Kati Erwert
+MAILCHIMP: Whitney (design), Andrew McRae (functionality)
+PROJECT PAGE: Thomas
+TEXT: Laura Gordon
+
+**PLANNED NEWSLETTER EMAILS:**
+
+- Welcome email includes information about equipment, supplies and calendar. This is sent out when someone subscribes to the newsletter.
+- What is a pale ale? (Likely to come ~5 days after launch of project page.)
+- Reminder email: X days until brew day. (Likely to come out a few days before brew day.)
 
 **CATEGORY IN WORDPRESS:**
 Brew With Us
