@@ -23,6 +23,7 @@
 - MailChimp: Whitney (design), Andrew McRae (functionality)
 - Project page: Thomas
 - Text: Laura Gordon
+- Project manager: Whitney
 
 **PLANNED NEWSLETTER EMAILS:**
 
@@ -41,6 +42,5 @@ American pale ale
 **TO DO:**
 
 - Intro video needs fonts and URL
-- Coasters need to be ordered
 
 <!-- Text - intro copy, brewsletter chatter. Timeline events (big events, small ones not done). four ingredients (done, needs 1-sentence trim). equipment description. -->
