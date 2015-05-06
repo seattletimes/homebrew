@@ -16,7 +16,7 @@
 - Developer: Thomas
 - Graphics: Kelly, Mark N., Garland
 - Video: Corinne
-- Producer assist when Katrina is out: Paige
+- Producer assist when Katrina is out: Aaron
 
 **POINT PERSON(S):**
 - Marketing: Whitney, Ryan, Kati Erwert
