@@ -1,9 +1,42 @@
 @import "values";
+@import "flexbox";
 
 .ingredients {
   background: url("assets/background/ingredients.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
-  height: 100%;
+  padding: 20px 0;
+
+  .ingredients-collection {
+    .display-flex;
+    .flex-direction(column);
+
+    @media @mobile {
+      .flex-direction(row);
+    }
+
+    .ingredient {
+      .flex(1 1 25%);
+    }
+  }
+
+  .ingredient {
+    position: relative;
+    overflow: hidden;
+
+    img {
+      max-width: 200px;
+      max-height: 200px;
+      display: block;
+    }
+
+    &::before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -wekbit-transform: translate(-50% -50%);
+      transform: translate(-50% -50%);
+    }
+  }
 }

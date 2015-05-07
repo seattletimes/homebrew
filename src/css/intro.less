@@ -5,10 +5,17 @@
   background: url("assets/background/intro.jpg");
   background-size: cover;
   background-position: left top;
-  padding: 2em;
+
+  .inner {
+    .display-flex;
+    @media @mobile {
+      .flex-direction(column);
+    }
+  }
 
   .intro-left, .intro-right {
     padding: 1em;
+    .flex(1);
   }
 
   .intro-left {
@@ -26,10 +33,16 @@
     .display-flex;
     .flex-direction(column);
     .justify-content(center);
-
-    h3 {
-      text-align: center;
-    }
   }
+
+  h3 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .subscribe.button {
+    display: block;
+  }
+
 }
 

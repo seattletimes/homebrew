@@ -1,9 +1,5 @@
 @import "values";
 
-html, body {
-  height: 100%;
-}
-
 body {
   background-color: @gold;
 }
@@ -33,6 +29,11 @@ section.primary {
     max-width: 1200px;
     margin: auto;
   }
+
+  @media @mobile {
+    font-size: 14px;
+    padding: 0;
+  }
 }
 
 .light-text {
@@ -54,13 +55,28 @@ section.primary {
 }
 
 .gray-box {
-  background-color: fade(@df-off-white, 45%);
+  background-color: fade(@df-light-gray, 80%);
+  color: black;
   padding: 10px;
   margin-bottom: 20px;
 }
 
-.hed-label {
-  margin: 10px 0;
-  color: @df-off-black;
+a.button, input[type=submit] {
+  background-color: @orange;
+  font-family: @hed;
   text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-left: 4px;
+  border: none;
+  padding: 8px 0;
+  transition: background-color .2s linear;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: @goldenrod;
+  }
 }
