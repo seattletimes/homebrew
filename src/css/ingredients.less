@@ -6,37 +6,79 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left top;
-  padding: 20px 0;
+  padding: 20px;
 
-  .ingredients-collection {
+  .ingredients-container {
     .display-flex;
-    .flex-direction(column);
+    .flex-direction(row);
+    .flex-wrap(wrap);
 
     @media @mobile {
-      .flex-direction(row);
+      display: block;
     }
 
     .ingredient {
-      .flex(1 1 25%);
+      .flex(1);
+
+      h3 {
+        display: none;
+      }
+
+      @media @tablet {
+        min-width: 50%;
+      }
     }
   }
 
   .ingredient {
     position: relative;
     overflow: hidden;
+    padding: 8px;
 
     img {
-      max-width: 200px;
-      max-height: 200px;
       display: block;
     }
 
-    &::before {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -wekbit-transform: translate(-50% -50%);
-      transform: translate(-50% -50%);
+    .image-container {
+      position: relative;
+
+      &::before {
+        position: absolute;
+        background: rgba(0, 0, 0, .4);
+        padding: 8px 16px;
+        // border-radius: 8px;
+        color: white;
+        text-shadow: 0 0 6px rgba(0, 0, 0, .8);
+        font-family: @hed;
+        font-size: 20px;
+        top: 50%;
+        left: 50%;
+        -wekbit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 3px;
+      }
+
+      &.hops::before {
+        content: "Hops";
+      }
+
+      &.water::before {
+        content: "Water";
+      }
+
+      &.grain::before {
+        content: "Grain";
+      }
+
+      &.yeast::before {
+        content: "Yeast";
+      }
     }
+  }
+
+  .detail {
+    // padding: 8px;
   }
 }

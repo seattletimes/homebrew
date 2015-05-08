@@ -5,6 +5,7 @@
   background: url("assets/background/intro.jpg");
   background-size: cover;
   background-position: left top;
+  padding: 20px;
 
   .inner {
     .display-flex;
@@ -15,18 +16,11 @@
 
   .intro-left, .intro-right {
     padding: 1em;
-    .flex(1);
-  }
-
-  .intro-left {
+    .flex(1 1 0%);
   }
 
   .section-hed {
     margin-top: 0;
-  }
-
-  .intro-chatter {
-    font-size: 1.4em;
   }
 
   .brewsletter {
@@ -40,8 +34,34 @@
     text-transform: uppercase;
   }
 
-  .subscribe.button {
-    display: block;
+  .subscription {
+    .flex(0);
+
+    .form {
+      overflow: hidden;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .subscribe-logo {
+      width: 200px;
+    }
+
+    .subscribe.button {
+      display: block;
+    }
+
+    .pitch {
+      text-align: center;
+      color: black;
+      padding: 10px;
+
+      p {
+        margin: 0;
+        line-height: 1.2;
+        font-size: 14px;
+      }
+    }
   }
 
 }

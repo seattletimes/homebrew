@@ -1,22 +1,14 @@
 @import "values";
 
-.header {
+section.header {
   padding: 30px 0 60px;
-  background: url(assets/background/video-background.jpg) no-repeat;
-  background-size: 100% auto;
-  background-position: 50% 50%;
-
-  @media (max-width: 1200px) {
-    background-size: auto 400px;
-    // background-position: 50% 250px;
-  }
 
   .inner {
     position: relative;
 
     .outline {
       position: absolute;
-      border: 2px solid @df-dark-gray;
+      border: 2px solid darken(@gold, 30%);
       border-bottom: none;
       top: 18px;
       left: 0;
@@ -24,8 +16,11 @@
       height: 80%;
       z-index: 0;
 
-      @media @tablet {
-        display: none;
+      @media @small {
+        position: static;
+        display: block;
+        height: auto;
+        border: none;
       }
     }
 
@@ -39,6 +34,17 @@
       top: 4px;
       left: 4px;
       width: 250px;
+
+      @media @small {
+        position: relative;
+      }
+
+      @media @mobile {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: 200px;
+      }
     }
 
     .tagline {
@@ -49,6 +55,15 @@
       color: @df-off-white;
       text-transform: uppercase;
       font-size: 30px;
+
+      @media @small {
+        position: relative;
+        float: right;
+      }
+
+      @media @mobile {
+        display: none;
+      }
     }
 
   }
@@ -60,11 +75,13 @@
     font-size: 60px;
     z-index: 9;
     position: relative;
+    display: block;
     // letter-spacing: 4px;
     .outline-text(.15em);
 
-    @media (max-width: 1200px) {
-      padding-top: 60px;
+    @media @small {
+      background: @gold;
+      text-shadow: none;
     }
 
     @media @tablet {
@@ -72,7 +89,7 @@
     }
 
     @media @mobile {
-      font-size: 30px;
+      font-size: 40px;
     }
   }
 
@@ -85,11 +102,22 @@
     padding: 0;
     background: @gold;
     margin: 4px;
+    // .outline-text();
+
+    @media @small {
+      margin: 0;
+    }
 
     li {
       display: inline-block;
       margin: 0 10px;
     }
+  }
+
+  .video {
+    background: url(assets/background/video-background.jpg) no-repeat;
+    background-size: 100% 80%;
+    background-position: 50% 50%;
   }
 
   .aspect-outer {

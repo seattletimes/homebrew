@@ -2,6 +2,8 @@
 
 body {
   background-color: @gold;
+  font-family: @df-sans;
+  // font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,6 +26,7 @@ a {
 
 section.primary {
   margin: 0;
+  padding: 20px;
 
   .inner {
     max-width: 1200px;
@@ -31,8 +34,8 @@ section.primary {
   }
 
   @media @mobile {
-    font-size: 14px;
-    padding: 0;
+    // font-size: 14px;
+    padding: 20px 0;
   }
 }
 
@@ -55,7 +58,7 @@ section.primary {
 }
 
 .gray-box {
-  background-color: fade(@df-light-gray, 80%);
+  background-color: fade(@df-light-gray, 60%);
   color: black;
   padding: 10px;
   margin-bottom: 20px;
@@ -65,7 +68,7 @@ a.button, input[type=submit] {
   background-color: @orange;
   font-family: @hed;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: bold;
   letter-spacing: 1px;
   margin-left: 4px;
   border: none;

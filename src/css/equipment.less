@@ -1,6 +1,7 @@
 @import "values";
 
-.equipment {
+section.equipment {
+  padding: 0;
 
   .image-container {
     position: relative;
@@ -12,6 +13,11 @@
     width: 100%;
     text-align: center;
     padding-top: 20px;
+
+    @media @mobile {
+      background: black;
+      position: static;
+    }
   }
 
   .equipment-image {
