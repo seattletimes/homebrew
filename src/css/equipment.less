@@ -2,6 +2,7 @@
 
 section.equipment {
   padding: 0;
+  background: darken(desaturate(@brown, 10%), 10%);
 
   .image-container {
     position: relative;
@@ -13,9 +14,9 @@ section.equipment {
     width: 100%;
     text-align: center;
     padding-top: 20px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, .5);
 
     @media @mobile {
-      background: black;
       position: static;
     }
   }
@@ -23,5 +24,105 @@ section.equipment {
   .equipment-image {
     width: 100%;
     display: block;
+  }
+
+  .zone {
+    position: absolute;
+
+    .numeral {
+      @size: 24px;
+      color: @df-light-gray;
+      background: rgba(0, 0, 0, .5);
+      border-radius: 100%;
+      width: @size;
+      height: @size;
+      line-height: @size;
+      font-family: @df-sans;
+      text-align: center;
+      font-size: 15px;
+      transition: opacity .2s linear;
+      cursor: pointer;
+      font-weight: bold;
+      font-family: @hed;
+      z-index: 99;
+      // position: relative;
+
+      &:hover {
+        background: black;
+      }
+    }
+
+    .content {
+      display: none;
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      background: white;
+      padding: 8px 24px 8px 8px;
+      color: black;
+      font-size: 12px;
+      // min-width: 200px;
+      z-index: 999;
+      // text-align: center;
+
+      &.right {
+        right: 15px;
+        left: auto;
+      }
+
+      .title {
+        font-weight: bold;
+        font-size: 14px;
+        white-space: nowrap;
+      }
+
+      .description {
+        font-style: italic;
+      }
+
+      .close-button {
+        display: block;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 12px;
+        text-align: center;
+        line-height: 16px;
+        padding: 8px;
+      }
+    }
+
+    .radio {
+      display: none;
+    }
+
+    .radio:checked + label {
+      .content {
+        display: block;
+
+        @media @mobile {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .mobile-list {
+    display: none;
+    // list-style-type: none;
+    margin: .5em .5em 0;
+    padding-bottom: 1em;
+
+    .title {
+      font-weight: bold;
+    }
+
+    .description {
+      font-style: italic;
+      font-size: 14px;
+    }
+
+    @media @mobile {
+      display: block;
+    }
   }
 }
