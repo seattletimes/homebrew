@@ -4,6 +4,18 @@
   background-color: @goldenrod;
   min-height: 500px; // remove later
 
+  .icon {
+    padding: 0 5px;
+    .flex(0 0 60px);
+    img {
+      width: 50px;
+    }
+  }
+
+  .content {
+    .flex(1);
+  }
+
   .times {
     list-style-type: none;
     font-family: @hed;
@@ -12,7 +24,7 @@
     max-width: 400px;
 
     li {
-      display: block;
+      .display-flex;
       background: rgba(255, 255, 255, .6);
       padding: 8px;
       margin-bottom: 4px;
