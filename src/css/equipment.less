@@ -3,6 +3,7 @@
 section.equipment {
   padding: 0;
   background: darken(desaturate(@brown, 10%), 10%);
+  position: relative;
 
   .image-container {
     position: relative;
@@ -23,26 +24,32 @@ section.equipment {
   }
 
   .read-more {
-    float: right;
-    position: relative;
+    position: absolute;
+    top: 10px;
+    right: 10px;
     z-index: 9999;
     background: fade(black, 50%);
     max-width: 160px;
     padding: 10px;
-    margin: 10px;
     font-size: 16px;
     text-align: right;
 
     a {
       color: white;
+      display: block;
+
+      @media @tablet {
+        display: inline-block;
+      }
     }
 
     @media @tablet {
-      float: none;
+      position: static;
       display: block;
       margin: 0;
       max-width: 100%;
-      text-align: center;
+      text-align: left;
+      background: transparent;
     }
   }
 

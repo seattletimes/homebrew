@@ -1,0 +1,78 @@
+
+{
+
+	"frames":[
+		{
+
+			"filename":"image1001",
+			"sourceSize":{
+				"w":476,
+				"h":389},
+			"spriteSourceSize":{
+				"y":0,
+				"x":0,
+				"w":476,
+				"h":389},
+			"frame":{
+				"y":0,
+				"x":10,
+				"w":476,
+				"h":389},
+			"trimmed":false},
+		{
+
+			"filename":"image1002",
+			"sourceSize":{
+				"w":476,
+				"h":389},
+			"spriteSourceSize":{
+				"y":0,
+				"x":0,
+				"w":476,
+				"h":389},
+			"frame":{
+				"y":0,
+				"x":486,
+				"w":476,
+				"h":389},
+			"trimmed":false},
+		{
+
+			"filename":"image1003",
+			"sourceSize":{
+				"w":476,
+				"h":389},
+			"spriteSourceSize":{
+				"y":0,
+				"x":0,
+				"w":476,
+				"h":389},
+			"frame":{
+				"y":0,
+				"x":962,
+				"w":476,
+				"h":389},
+			"trimmed":false},
+		{
+
+			"filename":"image1004",
+			"sourceSize":{
+				"w":476,
+				"h":389},
+			"spriteSourceSize":{
+				"y":0,
+				"x":0,
+				"w":476,
+				"h":389},
+			"frame":{
+				"y":0,
+				"x":1438,
+				"w":476,
+				"h":389},
+			"trimmed":false}],
+	"meta":{
+		"scale":1,
+		"image":"HOPS-SPREAD.png",
+		"size":{
+			"w":1926,
+			"h":389}}}

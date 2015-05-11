@@ -1,6 +1,40 @@
 @import "values";
+@import "flexbox";
 
 .process {
   background-color: white;
   min-height: 500px; // remove later
+
+  .row {
+    .display-flex;
+    max-width: 800px;
+    margin: auto;
+
+    @media @mobile {
+      .flex-direction(column);
+    }
+
+    .animation {
+      .flex(0 0 320px);
+      text-align: center;
+    }
+
+    .text {
+      .flex(1 1 0%);
+      .display-flex;
+      .justify-content(center);
+      .flex-direction(column);
+      padding: 0 10px;
+    }
+
+    &.inverted {
+      .animation {
+        .flex-order(9);
+
+        @media @mobile {
+          .flex-order(0);
+        }
+      }
+    }
+  }
 }

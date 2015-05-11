@@ -2,12 +2,25 @@ footer.closing {
   background: black;
   color: white;
 
+  @media @mobile {
+    padding: 10px;
+  }
+
   ul.credits {
     list-style-type: none;
     padding-left: 0;
 
-    li {
+    font-size: 16px;
 
+    li {
+      margin-bottom: 8px;
+      line-height: 1;
     }
+  }
+
+  .footer-logo {
+    float: right;
+    width: 320px;
+    margin-bottom: 8px;
   }
 }
