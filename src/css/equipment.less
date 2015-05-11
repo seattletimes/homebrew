@@ -15,9 +15,34 @@ section.equipment {
     text-align: center;
     padding-top: 20px;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, .5);
+    z-index: 9999;
 
-    @media @mobile {
+    @media @tablet {
       position: static;
+    }
+  }
+
+  .read-more {
+    float: right;
+    position: relative;
+    z-index: 9999;
+    background: fade(black, 50%);
+    max-width: 160px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    text-align: right;
+
+    a {
+      color: white;
+    }
+
+    @media @tablet {
+      float: none;
+      display: block;
+      margin: 0;
+      max-width: 100%;
+      text-align: center;
     }
   }
 
@@ -44,8 +69,8 @@ section.equipment {
       cursor: pointer;
       font-weight: bold;
       font-family: @hed;
-      z-index: 99;
-      // position: relative;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
 
       &:hover {
         background: black;
@@ -61,9 +86,7 @@ section.equipment {
       padding: 8px 24px 8px 8px;
       color: black;
       font-size: 12px;
-      // min-width: 200px;
       z-index: 999;
-      // text-align: center;
 
       &.right {
         right: 15px;
@@ -93,14 +116,19 @@ section.equipment {
 
     .radio {
       display: none;
-    }
 
-    .radio:checked + label {
-      .content {
-        display: block;
+      & + label {
 
-        @media @mobile {
-          display: none;
+      }
+
+      &:checked + label {
+
+        .content {
+          display: block;
+
+          @media @mobile {
+            display: none;
+          }
         }
       }
     }

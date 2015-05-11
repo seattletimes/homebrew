@@ -1,18 +1,19 @@
 index,variant,x,y,title,description,
 1,a,24,30,6-gallon bucket with spigot,Vessel for fermenting and mixing beer,
 2,a,42,25,5-gallon glass carboy,Vessel for fermenting beer during late stages,
-3,a,28,66,Plastic tubing and racking cane,Used to siphon beer,
-4,a,33,70,Bottle filler,(might not come with all kits),tube on right
-5,a,40,65,Strainer or muslin bag,Used to hold grains or hops,
-6,a,56,45,Malt extract (liquid or dry),"Concentrated ""wort"" containing fermentable sugars",
-7,a,66,46,Bottle caps,,
-8,a,53,62,Hops (whole leaf or pellets),,
-8,b,68,62,Hops (whole leaf or pellets),,
-9,a,60,64,Yeast (liquid or dry),,
-10,a,55,80,Specialty grains,,
-10,b,75,80,Specialty grains,,
-11,a,76,46,Priming sugar,Carbonates beer,bag on top
-12,a,82,59,Cleaner and sanitizer,,
-13,a,78,65,Airlock and rubber cap,Used to prevent oxygen from entering the fermenter,
-14,a,84,66,Thermometer,(might not come with all kits),metal next to airlock
-15,a,92,70,Hydrometer,"Used to measure the ""gravity"" of beer (might not come with all kits)",rightmost
+3,a,20,66,Plastic tubing,Used to siphon beer,
+4,a,31,66,Racking cane,Used to siphon beer,
+5,a,33,75,Bottle filler,(might not come with all kits),tube on right
+6,a,40,65,Strainer or muslin bag,Used to hold grains or hops,
+7,a,56,45,Malt extract (liquid or dry),"Concentrated ""wort"" containing fermentable sugars",
+8,a,66,48,Bottle caps,,
+9,a,53,62,Hops (whole leaf or pellets),,
+9,b,68,62,Hops (whole leaf or pellets),,
+10,a,61,66,Yeast (liquid or dry),,
+11,a,57,80,Specialty grains,,
+11,b,75,80,Specialty grains,,
+12,a,76,48,Priming sugar,Carbonates beer,bag on top
+13,a,82,59,Cleaner and sanitizer,,
+14,a,82,74,Airlock and rubber cap,Used to prevent oxygen from entering the fermenter,
+15,a,84,66,Thermometer,(might not come with all kits),metal next to airlock
+16,a,92,70,Hydrometer,"Used to measure the ""gravity"" of beer (might not come with all kits)",rightmost

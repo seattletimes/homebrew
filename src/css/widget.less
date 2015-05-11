@@ -1,0 +1,41 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@import "values";
+@import "mailchimp";
+@import "page";
+@import "flexbox";
+
+html {
+  background: white;
+}
+
+body {
+  background: @tan;
+  max-width: 960px;
+  margin: auto;
+}
+
+.row {
+  .display-flex;
+
+  img {
+    width: 100px;
+  }
+
+  .cell {
+    .flex(1);
+    .display-flex;
+    .flex-direction(column);
+    .justify-content(center);
+    padding: 20px;
+  }
+}
+
+h1 {
+  display: block;
+  text-align: center;
+}
