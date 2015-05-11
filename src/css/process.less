@@ -5,13 +5,19 @@
   background-color: white;
   min-height: 500px; // remove later
 
+  iframe {
+    @media @mobile {
+      display: none;
+    }
+  }
+
   .row {
     .display-flex;
     max-width: 800px;
     margin: auto;
 
     @media @mobile {
-      .flex-direction(column);
+      display: block;
     }
 
     .animation {
@@ -25,6 +31,10 @@
       .justify-content(center);
       .flex-direction(column);
       padding: 0 10px;
+
+      @media @mobile {
+        display: block;
+      }
     }
 
     &.inverted {
