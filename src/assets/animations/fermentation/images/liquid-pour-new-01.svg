@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 166 150" enable-background="new 0 0 166 150" xml:space="preserve">
+<g id="Map">
+</g>
+<g id="Chart">
+</g>
+<g id="Inset_map">
+</g>
+<g id="Art">
+</g>
+<g id="TEXT">
+</g>
+<g id="Layer_6">
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="79.2594" y1="77.5138" x2="109.3068" y2="77.5138">
+			<stop  offset="1.020408e-02" style="stop-color:#D3C08F"/>
+			<stop  offset="0.4012" style="stop-color:#EBCD86"/>
+			<stop  offset="1" style="stop-color:#FFF0C4"/>
+		</linearGradient>
+		<path fill="url(#SVGID_1_)" d="M99.6,76.1c-4.8,11.6,1.9,15.9-9,24.2c-8.6,6.5-9.3,0-11.1-10.3c-0.2-1.2-0.3-2.4-0.2-3.6
+			c0.3-5.2,4.1-11.5,7.5-15.1c8.3-9,11.8-17.1,14.6-19c0,0,7.9,12.1,7.9,12.2C108.4,62.9,99.8,75.4,99.6,76.1z"/>
+	</g>
+</g>
+</svg>

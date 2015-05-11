@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 716 963.5" enable-background="new 0 0 716 963.5" xml:space="preserve">
+<g id="Map">
+</g>
+<g id="Chart">
+</g>
+<g id="Inset_map">
+</g>
+<g id="Art">
+</g>
+<g id="TEXT">
+	<g>
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="12155.6846" y1="-1116.5076" x2="12983.7715" y2="1158.6421" gradientTransform="matrix(0.3333 0 0 -0.3333 -3886.6665 479.2914)">
+			<stop  offset="0" style="stop-color:#CD972E"/>
+			<stop  offset="0.4856" style="stop-color:#EEA125"/>
+			<stop  offset="1" style="stop-color:#FFD97E"/>
+		</linearGradient>
+		<path fill="url(#SVGID_1_)" d="M49.9,171.3v276.5v43.8v1.9h0.9L324,909.3h50.2l283.4-415.8h0.9v-1.9v-43.8V172.1
+			C655.3,173.3,77.3,171.9,49.9,171.3z"/>
+		<g>
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="354.1136" y1="189.6954" x2="354.1136" y2="92.2369">
+				<stop  offset="1.020408e-02" style="stop-color:#ECD59C"/>
+				<stop  offset="0.7391" style="stop-color:#FFFFFF"/>
+			</linearGradient>
+			<path fill="url(#SVGID_2_)" d="M658.9,189.7l-608.6-0.6c-0.8,2.7-2.1-14.8,0.8-43.3c3.7-35.6,45.2-73.1,179.6-41.9
+				c48.1,11.2,76.4,13.6,152.9,13.7c29.4,0,93.5,18.7,122,6.5c65.1-28,147.2-51.4,150.2-6C659.5,176.3,658.9,189.7,658.9,189.7z"/>
+			<circle opacity="0.15" fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="451.1" cy="85.2" r="28.4"/>
+			<circle opacity="0.15" fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" cx="210" cy="68.7" r="28.4"/>
+			<path fill="#FFFFFF" d="M51.8,146l604.6-9.4c0,0,5.5-37.2-22.8-51.3c-25.2-12.5-81.1-40.6-144-16.5c-69.4,26.6-92.9,1-159.5-15.1
+				c-80.5-19.4-117.2,30.6-146.5,27.6c-26.5-2.7-33.5-20.2-68.6-9.3C49.3,92.2,51.8,146,51.8,146z"/>
+		</g>
+	</g>
+</g>
+</svg>

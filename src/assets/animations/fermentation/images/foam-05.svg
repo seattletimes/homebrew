@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 744 963.5" enable-background="new 0 0 744 963.5" xml:space="preserve">
+<g id="Map">
+</g>
+<g id="Chart">
+</g>
+<g id="Inset_map">
+</g>
+<g id="Art">
+</g>
+<g id="TEXT">
+	<g>
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-5917.5088" y1="-1116.5076" x2="-5089.4224" y2="1158.6421" gradientTransform="matrix(0.3333 0 0 -0.3333 2145.3333 479.2914)">
+			<stop  offset="0" style="stop-color:#CD972E"/>
+			<stop  offset="0.4856" style="stop-color:#EEA125"/>
+			<stop  offset="1" style="stop-color:#FFD97E"/>
+		</linearGradient>
+		<path fill="url(#SVGID_1_)" d="M57.5,171.3v276.5v43.8v1.9h0.9l273.2,415.8h50.2l283.4-415.8h0.9v-1.9v-43.8V172.1
+			C662.9,173.3,84.9,171.9,57.5,171.3z"/>
+		<g>
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="57.5129" y1="170.3036" x2="667.0701" y2="170.3036">
+				<stop  offset="1.020408e-02" style="stop-color:#ECD59C"/>
+				<stop  offset="0.7391" style="stop-color:#FFFFFF"/>
+			</linearGradient>
+			<path fill="url(#SVGID_2_)" d="M666,186.3H57.5c0,0,0.3-8,0-13.6c-0.5-10.8,32.3-19.6,177-10.3c48.1,3.1,76.4,3.8,152.9,3.8
+				c29.4,0,93.5,5.2,122,1.8c65.4-7.7,58.3-17.5,93.4-12.4c52.8,7.6,63.7,13.1,64.2,19.6C667.4,179.3,666,186.3,666,186.3z"/>
+			<path fill="#FFFFFF" d="M665.9,177.8l-608.1-0.1c0,0-6.1-22.1,21.3-26.5c22.7-3.6,63.4-7.5,155.7-1.6
+				c48.1,3.1,76.4-9.7,152.9-9.7c29.4,0,93.5,14.1,122,10.8c65.4-7.7,57.9-20.1,93.1-16.2C682.4,143.4,665.9,177.8,665.9,177.8z"/>
+			<circle opacity="0.15" fill="#FFFFFF" cx="317.4" cy="148.3" r="22.7"/>
+			<circle opacity="0.15" fill="#FFFFFF" cx="520.4" cy="143.4" r="22.7"/>
+			<circle opacity="0.15" fill="#FFFFFF" cx="202" cy="151.3" r="17.8"/>
+		</g>
+	</g>
+</g>
+</svg>
