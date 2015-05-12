@@ -21,13 +21,26 @@
     width: 24px;
     height: 24px;
     line-height: 24px;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     background: black;
     border-radius: 100%;
     text-align: center;
     vertical-align: text-bottom;
     font-family: @df-sans;
+    margin-right: 3px;
+    padding-left: 2px;
+    padding-top: 1px;
+  }
+
+  .final {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 26px;
+
+    @media @mobile {
+      padding-top: 10px;
+    }
   }
 
   .row {
@@ -49,14 +62,25 @@
       .display-flex;
       .justify-content(center);
       .flex-direction(column);
-      padding: 0 10px;
+      padding-left: 60px;
+      padding-right: 0;
 
       @media @mobile {
         display: block;
+        padding: 10px;
       }
     }
 
     &.inverted {
+      .text {
+        padding-right: 60px;
+        padding-left: 0;
+
+        @media @mobile {
+          padding: 10px;
+        }
+      }
+
       .animation {
         .flex-order(9);
 
