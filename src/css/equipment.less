@@ -9,28 +9,18 @@ section.equipment {
     position: relative;
   }
 
-  h3 {
+  .top {
     position: absolute;
     display: block;
     width: 100%;
     text-align: center;
     padding-top: 20px;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, .5);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .8), 2px 2px 6px rgba(0, 0, 0, .5);
     z-index: 9999;
 
     @media @tablet {
       position: static;
     }
-  }
-
-  .section-chatter {
-    position: absolute;
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding-top: 70px;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, .5);
-    z-index: 9999;
   }
 
   .read-more {
@@ -49,7 +39,7 @@ section.equipment {
       display: block;
 
       @media @tablet {
-        display: inline-block;
+        display: inline;
       }
     }
 
@@ -59,7 +49,7 @@ section.equipment {
       margin: 0;
       max-width: 100%;
       text-align: left;
-      background: transparent;
+      background: black;
     }
   }
 
