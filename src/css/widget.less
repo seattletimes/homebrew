@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background: @tan;
+  background: @brown;
   max-width: 960px;
   margin: auto;
 }
@@ -22,8 +22,13 @@ body {
 .row {
   .display-flex;
 
+  .image {
+    // padding: 8px;
+  }
+
   img {
-    width: 100px;
+    width: 80px;
+    margin: 8px;
   }
 
   .cell {
@@ -31,11 +36,13 @@ body {
     .display-flex;
     .flex-direction(column);
     .justify-content(center);
-    padding: 20px;
+    padding: 8px;
   }
 }
 
 h1 {
   display: block;
   text-align: center;
+  color: lighten(@blonde, 20%);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, .2);
 }
