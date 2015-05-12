@@ -20,10 +20,6 @@
     .ingredient {
       .flex(1);
 
-      h3 {
-        display: none;
-      }
-
       @media @tablet {
         .flex(1 0 50%);
       }
@@ -39,10 +35,18 @@
       display: block;
     }
 
+    .name {
+      font-family: @hed;
+      font-weight: bold;
+      letter-spacing: 2px;
+      // text-shadow: none;
+    }
+
     .image-container {
       position: relative;
 
       &::before {
+        display: none;
         position: absolute;
         background: rgba(0, 0, 0, .4);
         padding: 8px 16px;

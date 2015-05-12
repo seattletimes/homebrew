@@ -24,6 +24,10 @@ section.header {
         border: none;
         min-height: 0;
       }
+
+      @media @mobile {
+        text-align: center;
+      }
     }
 
     .content {
@@ -44,11 +48,10 @@ section.header {
       }
 
       @media @mobile {
-        left: 50%;
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%);
+        position: static;
         width: 200px;
-        top: 0;
+        -webkit-transform: none;
+        transform: none;
       }
     }
 
