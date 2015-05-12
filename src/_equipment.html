@@ -23,14 +23,14 @@
     </div>
     <% }); %>
   </div>
-  <div class="read-more">
-    <b>Read more:</b>
-    <a href="http://www.seattletimes.com/?p=9610974">Details and where to buy brewing supplies</a>
-  </div>
   <ol class="mobile-list">
     <% csv.tools.forEach(function(row) { %>
     <% if (row.variant == "b") return; %>
     <li> <%= row.title %> <div class="description"><%= row.description %></div>
     <% }); %>
   </ol>
+  <div class="read-more">
+    <b>Read more:</b>
+    <a href="http://www.seattletimes.com/?p=9610974">Details and where to buy brewing supplies</a>
+  </div>
 </section>
