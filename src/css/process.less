@@ -5,8 +5,16 @@
   background-color: white;
   min-height: 500px; // remove later
 
-  iframe {
-    @media @mobile {
+  .thumbnail {
+    display: block;
+  }
+
+  iframe:not([src]) {
+    display: none;
+  }
+
+  .animated & {
+    .thumbnail {
       display: none;
     }
   }

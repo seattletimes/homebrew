@@ -20,4 +20,14 @@ var html = template({
   })
 });
 
+//check for iOS, which can't handle our animations
+if (!navigator.userAgent.match(/i(phone|pad)/i)) {
+  document.body.classList.add("animated");
+  var iframes = document.querySelectorAll("iframe[data-src]");
+  for (var i = 0; i < iframes.length; i++) {
+    var frame = iframes[i];
+    frame.src = frame.getAttribute("data-src");
+  }
+}
+
 // console.log(html);

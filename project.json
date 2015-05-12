@@ -6,7 +6,7 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": "2015/brew-with-us"
+      "path": "2015/brew-with-us/"
     }
   },
   "title": "Brew With Us",
