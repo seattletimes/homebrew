@@ -1,14 +1,14 @@
 @import "values";
+@import "flexbox";
 
 .timeline {
   background-color: @goldenrod;
-  min-height: 500px; // remove later
+  text-align: center;
 
   .icon {
     padding: 0 5px;
-    .flex(0 0 60px);
     img {
-      width: 50px;
+      width: 200px;
     }
   }
 
@@ -20,19 +20,22 @@
     list-style-type: none;
     font-family: @hed;
     padding: 0;
-    margin: auto;
-    max-width: 400px;
+    .display-flex;
+    .flex-wrap(wrap);
 
-    li {
-      .display-flex;
-      background: rgba(255, 255, 255, .6);
-      padding: 8px;
-      margin-bottom: 4px;
+    @media @mobile {
+      display: block;
     }
 
-    .subtimes {
-      padding: 0;
-      margin: 8px;
+    li {
+      .flex(1 0 25%);
+      background: rgba(255, 255, 255, .6);
+      padding: 8px;
+      border: 2px solid @goldenrod;
+
+      @media @tablet {
+        .flex(1 0 50%);
+      }
     }
   }
 }

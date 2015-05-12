@@ -33,9 +33,10 @@ section.header {
 
     .logo {
       position: absolute;
-      top: 4px;
-      left: 4px;
-      width: 250px;
+      top: 14px;
+      left: 14px;
+      width: 230px;
+      z-index: 999;
 
       @media @small {
         position: relative;
@@ -51,8 +52,8 @@ section.header {
 
     .tagline {
       position: absolute;
-      top: 6px;
-      right: 4px;
+      top: 16px;
+      right: 14px;
       text-align: right;
       color: @df-off-white;
       text-transform: uppercase;
@@ -123,9 +124,9 @@ section.header {
       position: absolute;
       content: " ";
       display: block;
-      top: 10%;
+      top: 0;
       left: 0;
-      height: 80%;
+      height: 100%;
       width: 100%;
       background: url(assets/background/video-background.jpg) no-repeat;
       background-size: cover;
@@ -137,7 +138,7 @@ section.header {
     width: 80%;
     max-width: 800px;
     margin: auto;
-    padding: 0 0 20px;
+    padding: 20px 0 20px;
 
     @media @mobile {
       width: 100%;
