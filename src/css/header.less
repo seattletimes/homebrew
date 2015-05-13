@@ -37,9 +37,10 @@ section.header {
 
     .logo {
       position: absolute;
-      top: 14px;
+      top: 32px;
       left: 14px;
       z-index: 999;
+      text-align: center;
       
       img {
         width: 230px;
@@ -55,6 +56,7 @@ section.header {
       }
 
       @media @mobile {
+        display: block;
         position: static;
         -webkit-transform: none;
         transform: none;
@@ -93,9 +95,13 @@ section.header {
     display: block;
     // letter-spacing: 4px;
     .outline-text(.15em);
+    // -webkit-transform: translateY(-18px);
+    // transform: translateY(-18px);
+    width: auto;
+    margin: auto;
 
     @media @small {
-      background: @gold;
+      // background: @gold;
       text-shadow: none;
     }
 
