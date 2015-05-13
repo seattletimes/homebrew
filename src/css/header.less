@@ -39,8 +39,15 @@ section.header {
       position: absolute;
       top: 14px;
       left: 14px;
-      width: 230px;
       z-index: 999;
+      
+      img {
+        width: 230px;
+
+        @media @mobile {
+          width: 200px;
+        }
+      }
 
       @media @small {
         position: relative;
@@ -49,7 +56,6 @@ section.header {
 
       @media @mobile {
         position: static;
-        width: 200px;
         -webkit-transform: none;
         transform: none;
       }
