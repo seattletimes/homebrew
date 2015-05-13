@@ -1,5 +1,25 @@
 @import "values";
+@import "flexbox";
 
 .highlighted {
-  min-height: 500px; // remove later
+  .related {
+    list-style-type: none;
+    .display-flex;
+    .flex-wrap(wrap);
+    font-family: @hed;
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+
+    li {
+      .flex(1 0 50%);
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      max-width: 300px;
+      margin: auto;
+    }
+  }
 }
